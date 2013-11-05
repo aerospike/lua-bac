@@ -1,0 +1,46 @@
+version = "5.2.1"
+arch = "Debian"
+maintainer = "Peter Drahoš"
+type = "x86_64"
+url = "http://www.lua.org"
+license = "MIT/X11"
+files = {
+Header = {
+[[include/lua.h]],
+[[include/lualib.h]],
+[[include/lauxlib.h]],
+[[include/luaconf.h]],
+}
+,
+Other = {
+[[share/lua/etc//lua.ico]],
+[[share/lua/etc//lua_lang.ico]],
+}
+,
+Documentation = {
+[[share/lua/doc//osi-certified-72x60.png]],
+[[share/lua/doc//manual.html]],
+[[share/lua/doc//logo.gif]],
+[[share/lua/doc//contents.html]],
+[[share/lua/doc//readme.html]],
+[[share/lua/doc//manual.css]],
+[[share/lua/doc//lua.css]],
+[[share/lua/doc//luac.1]],
+[[share/lua/doc//lua.1]],
+}
+,
+Data = {
+[[share/lua/README.md]],
+}
+,
+Runtime = {
+[[bin/lua]],
+[[bin/luac]],
+[[lib/liblua.so]],
+}
+,
+}
+
+desc = "Lua is a powerful, fast, light-weight, embeddable scripting language."
+name = "lua"
+author = "Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo"
