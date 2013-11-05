@@ -1,0 +1,84 @@
+author = "Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo"
+type = "x86_64"
+license = "MIT/X11"
+files = {
+Other = {
+[[share/lua/etc//min.c]],
+[[share/lua/etc//Makefile]],
+[[share/lua/etc//lua.ico]],
+[[share/lua/etc//lua.hpp]],
+[[share/lua/etc//all.c]],
+[[share/lua/etc//strict.lua]],
+[[share/lua/etc//README]],
+[[share/lua/etc//lua_lang.ico]],
+[[share/lua/etc//lua.pc]],
+[[share/lua/etc//luavs.bat]],
+[[share/lua/etc//noparser.c]],
+}
+,
+Header = {
+[[include/lua.h]],
+[[include/lualib.h]],
+[[include/lauxlib.h]],
+[[include/lua.hpp]],
+[[include/luaconf.h]],
+}
+,
+Documentation = {
+[[share/lua/doc//luac.html]],
+[[share/lua/doc//manual.html]],
+[[share/lua/doc//logo.gif]],
+[[share/lua/doc//contents.html]],
+[[share/lua/doc//readme.html]],
+[[share/lua/doc//manual.css]],
+[[share/lua/doc//lua.css]],
+[[share/lua/doc//luac.1]],
+[[share/lua/doc//lua.1]],
+[[share/lua/doc//lua.html]],
+[[share/lua/doc//cover.png]],
+}
+,
+Runtime = {
+[[bin/lua]],
+[[bin/luac]],
+[[lib/liblua.so]],
+[[lib/lua/strict.lua]],
+}
+,
+Test = {
+[[share/lua/test//fibfor.lua]],
+[[share/lua/test//env.lua]],
+[[share/lua/test//fib.lua]],
+[[share/lua/test//cf.lua]],
+[[share/lua/test//echo.lua]],
+[[share/lua/test//readonly.lua]],
+[[share/lua/test//life.lua]],
+[[share/lua/test//luac.lua]],
+[[share/lua/test//trace-globals.lua]],
+[[share/lua/test//xd.lua]],
+[[share/lua/test//README]],
+[[share/lua/test//printf.lua]],
+[[share/lua/test//hello.lua]],
+[[share/lua/test//sort.lua]],
+[[share/lua/test//sieve.lua]],
+[[share/lua/test//globals.lua]],
+[[share/lua/test//bisect.lua]],
+[[share/lua/test//factorial.lua]],
+[[share/lua/test//trace-calls.lua]],
+[[share/lua/test//table.lua]],
+}
+,
+Data = {
+[[share/lua/README.md]],
+[[share/lua/COPYRIGHT]],
+[[share/lua/HISTORY]],
+}
+,
+}
+
+arch = "Debian"
+name = "lua"
+version = "5.1.5"
+maintainer = "Peter Drahoš"
+desc = "Lua is a powerful, fast, light-weight, embeddable scripting language."
+url = "http://www.lua.org"
