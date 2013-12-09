@@ -1,0 +1,52 @@
+license = "MIT/X11"
+maintainer = "Peter Drahoš"
+url = "http://www.lua.org"
+type = "x86_64"
+version = "5.2.3"
+author = "Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo"
+files = {
+Header = {
+[[include\lua.h]],
+[[include\lualib.h]],
+[[include\lauxlib.h]],
+[[include\lua.hpp]],
+[[include\luaconf.h]],
+}
+,
+Data = {
+[[share\lua\README.md]],
+}
+,
+Library = {
+[[lib\liblua.dll.a]],
+}
+,
+Other = {
+[[share\lua\etc\\lua.ico]],
+[[share\lua\etc\\lua_lang.ico]],
+}
+,
+Documentation = {
+[[share\lua\doc\\contents.html]],
+[[share\lua\doc\\logo.gif]],
+[[share\lua\doc\\lua.1]],
+[[share\lua\doc\\lua.css]],
+[[share\lua\doc\\luac.1]],
+[[share\lua\doc\\manual.css]],
+[[share\lua\doc\\manual.html]],
+[[share\lua\doc\\osi-certified-72x60.png]],
+[[share\lua\doc\\readme.html]],
+}
+,
+Runtime = {
+[[bin\wlua.exe]],
+[[bin\lua.exe]],
+[[bin\luac.exe]],
+[[bin\liblua.dll]],
+}
+,
+}
+
+arch = "Windows"
+name = "lua"
+desc = "Lua is a powerful, fast, light-weight, embeddable scripting language."
