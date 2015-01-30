@@ -1,3 +1,7 @@
 _*
 .DS_Store
+*.[ao]
+src/lua
+src/luac
+src/luaconf.h
 
